@@ -13,4 +13,4 @@ def latest_report(filepath):
 
     #输出最新报告路径
     file = os.path.join(report_dir,lists[-1])
-    return file
+    print(file)
